@@ -1,0 +1,26 @@
+1. Скопируйте папки css, images, js в ту папку, где у Вас лежит html страница,
+в которой будет слайдшоу.
+
+2. Откройте целевую html страницу и между тэгами <head></head> вставьте следующие строки:
+	
+	
+<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+<script src="js/prototype.js" type="text/javascript"></script>
+<script src="js/scriptaculous.js?load=effects" type="text/javascript"></script>
+<script src="js/lightbox.js" type="text/javascript"></script>
+
+
+3. На самой странице, вставляйте изображения так:
+
+<a href="images/1.jpg" rel="lightbox[praga]" title="Прага день 1">
+<img src="images/mini1.jpg" alt="" width="100" height="75" border="0"  />
+</a> 
+
+<a href="images/2.jpg" rel="lightbox[praga]" title="Прага день 2">
+<img src="images/mini2.jpg" alt="" width="100" height="75" border="0" />
+</a>
+
+<a href="images/3.jpg" rel="lightbox[praga]" title="Прага день 3" >
+<img src="images/mini3.jpg" alt="" width="100" height="75" border="0" />
+</a>
+

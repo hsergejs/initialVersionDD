@@ -1,0 +1,25 @@
+div#menuimg {background:url(../img/menu/menu.png) repeat-x;
+height:43px;
+padding-top:12px;
+}
+
+div#searchform { margin-top:37px;
+padding-left:32px;}
+
+div#recommendbody { margin-top:12px;
+padding-left:7px;}
+
+div#recommendbutton { padding-left:5px;}
+
+div#statsbody { padding-top:23px;
+padding-left:5px;}
+
+div#footerimg { background:url(../img/footer/footerimg.png) no-repeat center;
+height:40px;
+}
+
+div#footerline { background:url(../img/footer/footerline.png) repeat-x;
+height:17px;
+}
+
+<!--promo css-->
